@@ -1,7 +1,7 @@
 #A)
 School = { }
 for i in range(5):
-    School.update( { input(f'Название класса №{i+1}: '): int(input(f'Количество учеников класса № {i+1}: ')) } )
+    School.update( { input(f'Название класса №{i+1}: '): int(input(f'КОЛИЧЕСТВО УЧЕНИКОВ № {i+1}: ')) } )
 print(School)
 #B)
 ClassName = input('Введите класс: ')
